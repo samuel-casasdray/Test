@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url("https://picsum.photos/1500/700");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: cadetblue;
+}
+
+nav ul {
+    padding: 2rem;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    padding: 5px 15px;
+    color: white;
+    font-size: 22px;
+    transition: border-bottom-color 1s, border-right-color 1s, border-left-color 1s, border-top-color 1s;
+    text-decoration: none;
+    border: 2px solid black;
+    font-family: "Roboto Light", serif;
+}
+
+nav ul li a:hover {
+    border-color: white;
+}
+
+.main-minus {padding-top: 90px}
+
+.d-flex {display: flex}
+.d-block {display: block}
+.flex-row {flex-direction: row}
+.flex-column {flex-direction: column}
+.flex-row-reverse {flex-direction: row-reverse}
+.flex-column-reverse {flex-direction: column-reverse}
+.m-auto {margin: auto}
+.h-100 {height: 100%}
+.h-100vh {height: calc(100vh - 90px)}
+.c-black {color: black}
+.c-white {color: white}
